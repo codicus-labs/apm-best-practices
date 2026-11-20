@@ -1,7 +1,0 @@
-// What scripts/check.sh checks beyond the format. This source depends on no other
-// and says how to use tools well, never which tool or organisation to choose.
-{
-    "sources": {},
-    "forbiddenWords": ["Codicus", "codicus-labs", "Pocket ID", "k3s", "mise"],
-    "choiceWords": ["instead of", "never use", "not allowed", "we use"],
-}

@@ -55,8 +55,6 @@ Counts are always-loaded / on-demand instructions.
 packages/<package>/
     manifest.jsonc              description and dependencies
     instructions/<id>.md        front matter description, load (always | on-demand), paths
-schema/manifest.schema.json     copy of APM's manifest schema, used by the check
-scripts/check.sh                validates every package (scripts/check.jsonc: words that do not belong here)
 ```
 
 ## Writing packages

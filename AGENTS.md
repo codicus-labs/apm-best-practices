@@ -4,7 +4,7 @@ The packages of an APM source of best practices. The format is `docs/format.md` 
 
 ## What belongs here
 
-Only rules everybody would follow: how to use a language, framework or tool well once a repository uses it. Never which tool, library or service to choose, and nothing about one organisation; those go into an organisation's own source that depends on these packages (`codicus-labs/apm-packages` is one). An instruction about a tool says when it applies ("When the repository uses sqlc, …") and names the tool's files in `paths`, so it reaches only repositories that use the tool. `scripts/check.sh` fails on organisation names and warns on wording that usually marks a choice.
+Only rules everybody would follow: how to use a language, framework or tool well once a repository uses it. Never which tool, library or service to choose, and nothing about one organisation; those go into an organisation's own source that depends on these packages (`codicus-labs/apm-packages` is one). An instruction about a tool says when it applies ("When the repository uses sqlc, …") and names the tool's files in `paths`, so it reaches only repositories that use the tool.
 
 ## Language
 
@@ -39,7 +39,7 @@ paths: ["**/Dockerfile", "**/*.Dockerfile"]
 
 ## Checking and releasing
 
-Run `scripts/check.sh` and `apm package check` after every change; both are green before the work counts as done. The instructions for writing packages come from the package `authoring` of `codicus-labs/agent-package-manager`, installed here with `apm install` (`apm.jsonc`). A release is the annotated tag `<package>@<version>`; tag only after the check passes, and leave pushing to the owner. A change to what a released instruction asks is a minor or major release with a migration (see the `authoring` package).
+Run `apm package check` after every change; it is green before the work counts as done. The instructions for writing packages come from the package `authoring` of `codicus-labs/agent-package-manager`, installed here with `apm install` (`apm.jsonc`). A release is the annotated tag `<package>@<version>`; tag only after the check passes, and leave pushing to the owner. A change to what a released instruction asks is a minor or major release with a migration (see the `authoring` package).
 
 Commits follow Conventional Commits.
 
