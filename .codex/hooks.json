@@ -1,0 +1,25 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "hooks": [
+          {
+            "command": "command -v apm >/dev/null 2>&1 || exit 0; exec apm hook codex",
+            "type": "command"
+          }
+        ],
+        "matcher": "Bash|apply_patch"
+      }
+    ],
+    "PostCompact": [
+      {
+        "hooks": [
+          {
+            "command": "command -v apm >/dev/null 2>&1 || exit 0; exec apm hook codex",
+            "type": "command"
+          }
+        ]
+      }
+    ]
+  }
+}

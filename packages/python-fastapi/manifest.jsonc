@@ -1,0 +1,8 @@
+{
+    "$schema": "https://raw.githubusercontent.com/codicus-labs/agent-package-manager/main/schema/manifest.schema.json",
+    "description": "Python HTTP APIs with FastAPI: app factory, routers, Pydantic schemas, settings, async handlers, SQLAlchemy, Alembic and tests",
+    "dependencies": {
+        "python": "^1.0.0",
+        "services": "^1.0.0",
+    },
+}

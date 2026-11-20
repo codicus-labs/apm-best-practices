@@ -1,0 +1,11 @@
+{
+    "lockfileVersion": 1,
+    "packages": {
+        "apm/authoring": {
+            "source": "git@github.com:codicus-labs/agent-package-manager.git",
+            "version": "1.0.0",
+            "commit": "7437c0da23f352c91330df3a9695cd1cb688325e",
+            "dependencies": {}
+        }
+    }
+}

@@ -1,0 +1,4 @@
+{
+    "$schema": "https://raw.githubusercontent.com/codicus-labs/agent-package-manager/main/schema/manifest.schema.json",
+    "description": "Every repository: how agents work, the coding principles, tests, static analysis, CI, latest versions, Renovate, Testcontainers and EditorConfig",
+}

@@ -1,0 +1,7 @@
+{
+    "$schema": "https://raw.githubusercontent.com/codicus-labs/agent-package-manager/main/schema/manifest.schema.json",
+    "description": "Node.js and TypeScript repositories: running TypeScript directly",
+    "dependencies": {
+        "base": "^1.0.0",
+    },
+}

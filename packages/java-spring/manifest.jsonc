@@ -1,0 +1,7 @@
+{
+    "$schema": "https://raw.githubusercontent.com/codicus-labs/agent-package-manager/main/schema/manifest.schema.json",
+    "description": "Spring Boot services in Java: injection, typed configuration, feature packages, DTOs, problem details, Actuator, Gradle, JPA, Flyway and Testcontainers usage",
+    "dependencies": {
+        "services": "^1.0.0",
+    },
+}

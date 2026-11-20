@@ -1,0 +1,7 @@
+{
+    "$schema": "https://raw.githubusercontent.com/codicus-labs/agent-package-manager/main/schema/manifest.schema.json",
+    "description": "Kubernetes manifests: Kustomize, resources, probes, security context, labels, images, secrets, availability, network policies, config and checks",
+    "dependencies": {
+        "base": "^1.0.0",
+    },
+}

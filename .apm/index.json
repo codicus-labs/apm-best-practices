@@ -1,0 +1,28 @@
+{
+    "instructions": [
+        {
+            "id": "apm/authoring/instructions/instruction-files",
+            "description": "How the body and front matter of an instruction file are written so an agent can follow it",
+            "paths": [
+                "**/instructions/**/*.md"
+            ],
+            "file": ".apm/instructions/apm/authoring/instruction-files.md"
+        },
+        {
+            "id": "apm/authoring/instructions/loading",
+            "description": "How an instruction chooses load, paths and description so that it reaches agents exactly when it matters, also under a scope",
+            "paths": [
+                "**/instructions/**/*.md"
+            ],
+            "file": ".apm/instructions/apm/authoring/loading.md"
+        },
+        {
+            "id": "apm/authoring/instructions/migrations",
+            "description": "How a migration of a package release is written",
+            "paths": [
+                "**/migrations/*.md"
+            ],
+            "file": ".apm/instructions/apm/authoring/migrations.md"
+        }
+    ]
+}

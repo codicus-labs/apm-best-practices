@@ -1,0 +1,7 @@
+{
+    "$schema": "https://raw.githubusercontent.com/codicus-labs/agent-package-manager/main/schema/manifest.schema.json",
+    "description": "GitHub Actions workflows: least-privilege permissions, actions pinned by SHA and image publishing",
+    "dependencies": {
+        "base": "^1.0.0",
+    },
+}

@@ -1,0 +1,7 @@
+{
+    "$schema": "https://raw.githubusercontent.com/codicus-labs/agent-package-manager/main/schema/manifest.schema.json",
+    "description": "Terraform repositories: layout, pinned versions, remote state, variables and outputs, for_each, secrets, tflint, tags, naming and module sources",
+    "dependencies": {
+        "base": "^1.0.0",
+    },
+}

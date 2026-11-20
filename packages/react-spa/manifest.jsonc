@@ -1,0 +1,7 @@
+{
+    "$schema": "https://raw.githubusercontent.com/codicus-labs/agent-package-manager/main/schema/manifest.schema.json",
+    "description": "React single-page apps with Vite: components, feature folders, configuration, TanStack Query and Router, forms, i18n, Tailwind CSS and tests",
+    "dependencies": {
+        "node": "^1.0.0",
+    },
+}

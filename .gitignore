@@ -1,0 +1,6 @@
+# apm:begin (written by apm install)
+/.claude/skills/write-instruction/
+/.claude/skills/write-migration/
+/.agents/skills/write-instruction/
+/.agents/skills/write-migration/
+# apm:end

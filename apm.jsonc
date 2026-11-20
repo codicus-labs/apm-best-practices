@@ -1,0 +1,9 @@
+{
+	"$schema": "https://raw.githubusercontent.com/codicus-labs/agent-package-manager/main/schema/apm.schema.json",
+	// The harnesses to install for: claude, codex, pi.
+	"targets": ["claude", "codex", "pi"],
+	// Alias → git URL, or ./path for a directory of this repository.
+	"sources": {"apm": "git@github.com:codicus-labs/agent-package-manager.git"},
+	// <alias>/<package> → version range; add them with apm add.
+	"packages": {"apm/authoring": "^1.0.0"},
+}

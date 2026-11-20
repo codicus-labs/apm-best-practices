@@ -1,0 +1,7 @@
+{
+    "$schema": "https://raw.githubusercontent.com/codicus-labs/agent-package-manager/main/schema/manifest.schema.json",
+    "description": "pnpm used well: supply-chain hardening and installing pnpm in images and CI",
+    "dependencies": {
+        "base": "^1.0.0",
+    },
+}

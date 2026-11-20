@@ -1,0 +1,7 @@
+{
+    "$schema": "https://raw.githubusercontent.com/codicus-labs/agent-package-manager/main/schema/manifest.schema.json",
+    "description": "Dockerfiles and Docker Compose: pinned base images, non-root, .dockerignore, caching, exec form, build secrets, hadolint, labels and Compose files",
+    "dependencies": {
+        "base": "^1.0.0",
+    },
+}

@@ -1,0 +1,7 @@
+{
+    "$schema": "https://raw.githubusercontent.com/codicus-labs/agent-package-manager/main/schema/manifest.schema.json",
+    "description": "Python: the src layout, requires-python, uv, strict mypy and pytest usage",
+    "dependencies": {
+        "base": "^1.0.0",
+    },
+}

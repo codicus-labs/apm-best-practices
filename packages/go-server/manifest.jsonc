@@ -1,0 +1,8 @@
+{
+    "$schema": "https://raw.githubusercontent.com/codicus-labs/agent-package-manager/main/schema/manifest.schema.json",
+    "description": "Go HTTP services: a store package over sqlc and pgx, Huma usage, goose migrations, graceful shutdown and database tests",
+    "dependencies": {
+        "go": "^1.0.0",
+        "services": "^1.0.0",
+    },
+}
